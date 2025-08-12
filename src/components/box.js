@@ -2,9 +2,15 @@ const Boxes = () => {
   return (
     <>
       <div
-        style={{ height: 100, width: 200, border: "2px solid ", margin: 10 }}
+        style={{
+          height: 100,
+          width: 200,
+          border: "2px solid red",
+          margin: 10,
+          color: "red",
+        }}
       >
-        White box
+        Red box
       </div>
       <div
         style={{ height: 100, width: 200, border: "2px solid ", margin: 10 }}
