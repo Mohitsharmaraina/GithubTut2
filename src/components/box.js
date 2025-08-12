@@ -24,9 +24,15 @@ const Boxes = () => {
         Green box
       </div>
       <div
-        style={{ height: 100, width: 200, border: "2px solid ", margin: 10 }}
+        style={{
+          height: 100,
+          width: 200,
+          border: "2px solid blue",
+          margin: 10,
+          color: "blue",
+        }}
       >
-        White box
+        Blue box
       </div>
     </>
   );
